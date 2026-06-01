@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>AmandaCare | Compassionate Caregiving Services</title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./tailwind.config.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<header class="bg-surface sticky top-0 z-50 border-b border-surface-container-high">
+<nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-3">
+<img alt="AmandaCare Logo" class="h-10 w-auto" src="./images/Logo.png"/>
+<div class="font-headline-md text-headline-md-mobile md:text-headline-md font-extrabold text-primary hidden sm:block">AmandaCare</div>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-body-md text-body-md text-primary border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">About Us</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Services</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Resources</a>
+</div>
+<div class="flex gap-4 items-center">
+<button class="hidden md:block font-body-md text-body-md text-on-surface-variant px-4 py-2 hover:underline">Contact</button>
+<button class="bg-primary text-on-primary px-6 py-3 rounded-lg font-bold text-sm active:scale-95 transition-transform duration-150">Find Care</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section: Split Screen / Prominent Image -->
+<section class="relative bg-surface overflow-hidden min-h-[600px] flex items-center">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center py-16">
+<div class="lg:col-span-5 z-10 text-center lg:text-left">
+<h1 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-on-surface mb-6 leading-tight">
+                        Compassionate Care You Can Trust
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-lg mx-auto lg:mx-0">
+                        Qualified caregivers for children, seniors, and personalized support. Professional care with a human touch.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+<button class="gradient-primary text-on-primary px-8 py-4 rounded-lg font-bold text-lg soft-shadow active:scale-95 transition-transform">
+                            Find Care
+                        </button>
+<button class="bg-surface-container text-on-surface-variant border border-outline-variant px-8 py-4 rounded-lg font-bold text-lg hover:bg-surface-container-high active:scale-95 transition-transform">
+                            Request Consultation
+                        </button>
+</div>
+</div>
+<div class="lg:col-span-7 relative h-full">
+<div class="absolute -inset-10 bg-primary/10 blur-3xl rounded-full opacity-30"></div>
+<img alt="Caregiver and senior smiling" class="relative rounded-2xl soft-shadow w-full h-[400px] md:h-[600px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu_ohNO_Yp4RcXPBjqpHk0xdLgy5TJ9mzKMVob_SBkvVX1IBIOFFaA7csZ2VkBosxTQNZgbcTN9UkxinvampSE0iKqN3e2VQ3KHXxCttvUQ_vxkh5Fp0504ktl5s7LF_Em0tzo5tOn4lAv5TV4ibuY0Foq2Vzwi4XOPnLadi_l3nGv-vMreXaetcjg8YU29CzDE0Da58iBpsCgh9pUqJvgNAUN71D7da3q_GMe8stS4ubAZZYDnyc-l4LW5U55bU5HN5LpZMRuWaA"/>
+</div>
+</div>
+</section>
+<!-- Services Section: Visual Grid -->
+<section class="bg-surface-container-low py-32">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-20">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-4">Our Specialized Care Services</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Tailored support for every stage of life.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service Card 1 -->
+<div class="bg-surface-container-lowest rounded-2xl soft-shadow overflow-hidden group border border-surface-container transition-all hover:-translate-y-2">
+<div class="h-64 overflow-hidden">
+<img alt="Community Support" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="./images/CommunitySupport.png"/>
+</div>
+<div class="p-8 text-center">
+<h3 class="font-headline-md text-on-surface mb-3">Community Support</h3>
+<p class="text-on-surface-variant font-body-md mb-6 line-clamp-2">Helping individuals thrive within their local community through engagement.</p>
+<button class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-surface-container-lowest rounded-2xl soft-shadow overflow-hidden group border border-surface-container transition-all hover:-translate-y-2">
+<div class="h-64 overflow-hidden">
+<img alt="ABA Therapy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="./images/ABA.png"/>
+</div>
+<div class="p-8 text-center">
+<h3 class="font-headline-md text-on-surface mb-3">ABA Therapy</h3>
+<p class="text-on-surface-variant font-body-md mb-6 line-clamp-2">Evidence-based behavioral therapy for developmental growth and learning.</p>
+<button class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-surface-container-lowest rounded-2xl soft-shadow overflow-hidden group border border-surface-container transition-all hover:-translate-y-2">
+<div class="h-64 overflow-hidden">
+<img alt="Adult Day Services" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="./images/ADS.png"/>
+</div>
+<div class="p-8 text-center">
+<h3 class="font-headline-md text-on-surface mb-3">Adult Day Services</h3>
+<p class="text-on-surface-variant font-body-md mb-6 line-clamp-2">Engaging daytime programs providing social interaction and professional care.</p>
+<button class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us: Visual Focus -->
+<section class="py-32 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col lg:flex-row items-center gap-20">
+<div class="lg:w-1/2">
+<img alt="Family Care" class="rounded-3xl soft-shadow w-full h-[500px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUBkdRmB5PRL4n4hdGYIIODtyoAiFmxUptprGbfxg3a-KKYEelyMJtO-CvGA-OxKHEKzzZ6r_7y-hrbzgz_xd3tL8r6v_bIB-l2genQvGgjWLU6xn5IXBjPrPEtl9fhw50HYi245Y_PE_CVxmsXHF6BmGmcyd2-s7TyBgTNw8YGYrFudzkWANJfw_m7YNezBvUPGrF28l_ujhXdtkMuXu7vFv_f6-oaJmPj1NulKCyHNq4GUG-uuJZ5hU_7J-nn7S8U3jS8ejcpdk"/>
+</div>
+<div class="lg:w-1/2">
+<h2 class="font-headline-lg text-on-surface mb-12">The Right Choice For Your Family</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-5xl">verified_user</span>
+<h4 class="font-headline-md text-on-surface text-xl">Verified Experts</h4>
+<p class="text-on-surface-variant text-sm line-clamp-2">Hand-selected for experience and empathy.</p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-5xl">security</span>
+<h4 class="font-headline-md text-on-surface text-xl">Secure Screening</h4>
+<p class="text-on-surface-variant text-sm line-clamp-2">Rigorous background checks for total peace of mind.</p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-5xl">calendar_today</span>
+<h4 class="font-headline-md text-on-surface text-xl">Flexible Plans</h4>
+<p class="text-on-surface-variant text-sm line-clamp-2">Adaptable care that fits your unique schedule.</p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-5xl">support_agent</span>
+<h4 class="font-headline-md text-on-surface text-xl">24/7 Support</h4>
+<p class="text-on-surface-variant text-sm line-clamp-2">Our team is always available for your needs.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works -->
+<section class="py-24 bg-secondary-container/10">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-on-surface mb-4">Simple Steps to Peace of Mind</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="text-center group">
+<div class="w-24 h-24 bg-primary text-on-primary rounded-2xl flex items-center justify-center text-3xl font-bold mx-auto mb-8 shadow-lg group-hover:scale-110 transition-transform">1</div>
+<h4 class="font-headline-md mb-3">Tell Us Your Needs</h4>
+<p class="text-on-surface-variant">Simple assessment of your requirements.</p>
+</div>
+<div class="text-center group">
+<div class="w-24 h-24 bg-primary text-on-primary rounded-2xl flex items-center justify-center text-3xl font-bold mx-auto mb-8 shadow-lg group-hover:scale-110 transition-transform">2</div>
+<h4 class="font-headline-md mb-3">Get Matched</h4>
+<p class="text-on-surface-variant">Expert matching from our verified network.</p>
+</div>
+<div class="text-center group">
+<div class="w-24 h-24 bg-primary text-on-primary rounded-2xl flex items-center justify-center text-3xl font-bold mx-auto mb-8 shadow-lg group-hover:scale-110 transition-transform">3</div>
+<h4 class="font-headline-md mb-3">Receive Care</h4>
+<p class="text-on-surface-variant">Begin your journey with professional support.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials Section: Large Lifestyle Focus -->
+<section class="py-32 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-20">
+<h2 class="font-headline-lg text-on-surface">Stories From Our Community</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<!-- Testimonial 1 -->
+<div class="flex flex-col md:flex-row bg-surface-container-lowest rounded-3xl overflow-hidden soft-shadow border border-surface-container">
+<div class="md:w-2/5">
+<img alt="Sarah J." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmV1_Lycs6yYanWhT-IlUxpbVUsBQp9R7doOhz-DdilfPlO7bcthbJ503vuPjlc_R5REpsLvgAWFfoT2QJxScYPnwimrspjvbG5mmK4IU13MNHmQZnvoHNwwy1mfzF8KKtBBgbHOKhhlTMni0YpVRYbxg1v6TcOXKdwhA1s435mhmzFXwibfxW5b4KQr_jFZjl4Vs2A79sDurSQ5MnGKAi8WLgzEhW0bkebEg7YoUundotCMtdVM530apZ3SBiiN0an2J_i-kxLco"/>
+</div>
+<div class="md:w-3/5 p-10 flex flex-col justify-center">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-on-surface italic mb-8">"Finding a caregiver for my mother was a daunting task until we found AmandaCare. The match was perfect."</p>
+<div>
+<div class="font-bold text-on-surface">Elena Rodriguez</div>
+<div class="text-sm text-on-surface-variant">Daughter of client</div>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="flex flex-col md:flex-row-reverse bg-surface-container-lowest rounded-3xl overflow-hidden soft-shadow border border-surface-container">
+<div class="md:w-2/5">
+<img alt="Mark Thompson" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlXaVPrhW1KtdFWwKy2Jc0n6nolhegKE__bxJNQgcWwcr9Fd0wO6vGDi1LDKKr0XItJWgzaVIvvgoE0RqN0dUd4Kge4W3HYsU9EOPRBlAP4Oc9XyRFAn48DtibMLb2_t0A9aedMq_h8BSdZ06pOnVUUvdSUnxiEVVY0vkZUjZ3FQR0aaNAOrbs7d4TRc57OZu8IdxDRM0CNtdNqxE426Bg4nBT4pqPuW7g6Zbv9An8f1vwPmZJXxHriCcd701klHfksZOSbXsafMc"/>
+</div>
+<div class="md:w-3/5 p-10 flex flex-col justify-center">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-on-surface italic mb-8">"The nanny we found through AmandaCare has become part of our family. Peace of mind is priceless."</p>
+<div>
+<div class="font-bold text-on-surface">Mark Thompson</div>
+<div class="text-sm text-on-surface-variant">Father of two</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner -->
+<section class="py-24">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="gradient-primary rounded-3xl p-16 text-center text-on-primary soft-shadow overflow-hidden relative">
+<div class="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full -mr-48 -mt-48"></div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6 relative z-10">Ready to find the right caregiver?</h2>
+<p class="font-body-lg text-body-lg mb-10 text-primary-fixed max-w-xl mx-auto relative z-10 opacity-90">Join thousands of families who trust AmandaCare for specialized care needs.</p>
+<button class="bg-white text-primary px-12 py-5 rounded-xl font-extrabold text-xl soft-shadow active:scale-95 transition-transform relative z-10 hover:bg-surface-container-lowest">
+                        Get Started Today
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-high pt-24 pb-12">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
+<div>
+<div class="flex items-center gap-2 mb-8">
+<img alt="Logo" class="h-8 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKguSbw4OsKI0RBfxzaza48XkG_rakOax4OHuy5WRc_ZYSsmdNeK5_dVmA0jJUgECo1S-CJY8Ko4KRy5RQnawLoKpp7qT4R9ShQQIDu1ZvNUXVxCEIR_HmENmyymrVaaaX8odeuBoJHGgaxjiMW3TnJx_ukdyuu55l0FksqXDffWTBFOfW2ff2Jl3lMjp0sTSqsf-3DazGWmWD5FUSVSIXOVOlFmQhmD3zVWAFzFAEFJraxTowmlV1idQxjMF2oL7e93hGZyqugFM"/>
+<div class="font-headline-md font-extrabold text-primary">AmandaCare</div>
+</div>
+<p class="text-on-surface-variant font-body-md">Empowering families with compassionate, professional care solutions for every stage of life.</p>
+</div>
+<div>
+<h4 class="font-headline-md text-lg text-primary mb-8 uppercase tracking-widest text-xs">Quick Links</h4>
+<ul class="space-y-4">
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Our Caregivers</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Trust &amp; Safety</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Resources</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-md text-lg text-primary mb-8 uppercase tracking-widest text-xs">Services</h4>
+<ul class="space-y-4">
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Senior Care</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Baby Nursing</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Nanny Services</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Health Companionship</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-md text-lg text-primary mb-8 uppercase tracking-widest text-xs">Contact</h4>
+<p class="text-on-surface-variant mb-4 flex items-center gap-3"><span class="material-symbols-outlined text-primary">mail</span> support@amandacare.com</p>
+<p class="text-on-surface-variant mb-6 flex items-center gap-3"><span class="material-symbols-outlined text-primary">call</span> 1-800-AMANDA-CARE</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-surface-container-highest rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="w-10 h-10 bg-surface-container-highest rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#"><span class="material-symbols-outlined">forum</span></a>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4 text-on-surface-variant text-sm">
+<p>© 2024 AmandaCare. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Cookie Policy</a>
+</div>
+</div>
+</footer>
+<script>
+        // Interactive lift effect for cards
+        document.querySelectorAll('.soft-shadow').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-8px)';
+                card.style.transition = 'all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)';
+                card.style.boxShadow = '0 30px 60px -12px rgba(18, 130, 32, 0.15)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 10px 30px -5px rgba(18, 130, 32, 0.08)';
+            });
+        });
+    </script>
+</body></html>
